@@ -1,0 +1,26 @@
+{
+  "name": "دهانات وعوازل صوت وإيبوكسي أرضيات في الرياض",
+  "short_name": "دهانات وعوازل الرياض",
+  "description": "مقاول دهانات داخلية وخارجية، عوازل صوت للأبواب، ودهان إيبوكسي للأرضيات في الرياض بأعلى جودة وضمان معتمد.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1329",
+  "theme_color": "#0b1329",
+  "orientation": "portrait-primary",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "/preview.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/logo_result.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ]
+}
