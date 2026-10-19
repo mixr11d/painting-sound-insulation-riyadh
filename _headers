@@ -1,0 +1,30 @@
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# كاش سنة كاملة للصور لتحقيق 100% في Lighthouse
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/preview.png
+  Cache-Control: public, max-age=2592000
+
+/style.css
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+# ملف السكربت والتتبع (كاش صفري لضمان التقاط تحديثات قوقل وإعلاناتها فورياً)
+/script.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+# ملفات السيو وعناكب البحث
+/sitemap.xml
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/robots.txt
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/llms.txt
+  Cache-Control: public, max-age=3600, must-revalidate
